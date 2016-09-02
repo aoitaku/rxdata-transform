@@ -45,7 +45,7 @@ module Rxdata
 
     def export_script(file, script)
       rb = @output + 'Scripts' + (ScriptTransform.normalize_filename(file) + '.rb')
-      rb.write(script, mode: 'w')
+      rb.write(script, mode: 'wb')
     end
 
   end
