@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    oj (2.17.3)
+    ruby-progressbar (1.8.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  oj
+  ruby-progressbar
+
+BUNDLED WITH
+   1.12.4
